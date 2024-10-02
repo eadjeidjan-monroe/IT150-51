@@ -1,0 +1,49 @@
+p { 
+    text-align: left;
+    color: blueviolet;
+    font-size: larger;
+    font-family: fantasy;
+    
+
+}
+
+.bluetext {
+    text-align: center;
+    color: rgb(0, 0, 255);
+    font-size: medium;
+    font-family:Georgia;
+    background-color: burlywood;
+    background-image:url(/images/img2.jpg);
+
+}
+
+.dotted-lines {
+    border-style: dotted;
+}
+
+.dashed-lines {
+    border-style: dashed;
+}
+
+.bluetext2 {
+    text-align: center;
+    color: #000066;
+    font-size: medium;
+    font-family: Impact;
+    /* background-color: burlywood; */
+}
+
+/* 
+Tomato
+Orange
+DodgerBlue
+MediumSeaGreen
+Gray
+SlateBlue
+Violet
+LightGray
+Red
+Green
+Blue
+
+ */
