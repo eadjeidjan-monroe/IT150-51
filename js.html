@@ -4,14 +4,52 @@
     <title>
         My First Javascript
     </title>
+
 </head>
 
 <body>
+
+    <!--
+    var	-- Declares a variable
+    let	-- Declares a block variable
+    const --	Declares a block constant
+    if	-- Marks a block of statements to be executed on a condition
+    switch	-- Marks a block of statements to be executed in different cases
+    for	-- Marks a block of statements to be executed in a loop
+    function --	Declares a function
+    return --	Exits a function
+    try -- 	Implements error handling to a block of statements
+    
+    
+    
+    -->
     <h1>Javascript Demo</h1>
-    <p id="demo">Javascript can manipulate Html content</p>
-    <button type="button"
-        onclick='document.getElementById("demo").innerHTML = "Hello World, this is my first javascript!"'>
-        Click me</button>
+    <p id="demo"></p>
+    <button type="button" onclick='window.print()'>
+        Print
+    </button>
+
+    <button type="button" onclick='clearText()'>
+        Clear Text</button>
+
+
+
+
+    <script >
+        let a, b, c;
+        var x, y, z;
+
+        
+        a = "Hello ";
+        b = "World";
+
+        c = a + b;
+        document.getElementById("demo").innerHTML = c;
+
+
+        
+    </script>
+
 </body>
 
 </html>
